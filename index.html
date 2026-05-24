@@ -155,7 +155,7 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            padding: 72px 20px 28px;
+            padding: 62px 20px 30px;
             background: var(--darker);
         }
         .hero-bg {
@@ -208,8 +208,9 @@
             z-index: 2;
             text-align: center;
             width: 100%;
-            max-width: 500px;
+            max-width: 440px;
             isolation: isolate;
+            transform: translateY(-8px);
         }
         .hero-content > :not(.hero-year) {
             position: relative;
@@ -243,15 +244,15 @@
             50% { opacity: 0.3; }
         }
         .hero-logo {
-            width: clamp(150px, 34vw, 220px);
-            margin: 0 auto 16px;
+            width: clamp(118px, 28vw, 170px);
+            margin: 0 auto 14px;
             display: block;
             filter: drop-shadow(0 0 30px rgba(255,215,0,0.2));
             opacity: 0;
         }
         .hero-title {
             font-family: 'Syne', sans-serif;
-            font-size: clamp(2.2rem, 8vw, 3.6rem);
+            font-size: clamp(1.85rem, 7vw, 3.05rem);
             font-weight: 800;
             line-height: 1;
             letter-spacing: -1px;
@@ -266,11 +267,11 @@
         }
         .hero-year {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: clamp(4rem, 18vw, 7rem);
+            font-size: clamp(3.5rem, 16vw, 6rem);
             font-weight: 700;
             color: rgba(255,255,255,0.055);
             position: absolute;
-            top: clamp(75px, 17vw, 112px);
+            top: clamp(60px, 14vw, 88px);
             left: 50%;
             transform: translate(-50%, -50%);
             white-space: nowrap;
@@ -280,7 +281,7 @@
         }
         .hero-tag {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 0.85rem;
+            font-size: clamp(0.7rem, 2.4vw, 0.8rem);
             color: rgba(255,255,255,0.5);
             letter-spacing: 4px;
             text-transform: uppercase;
@@ -290,11 +291,11 @@
         .hero-motto {
             display: inline-block;
             font-family: 'Syne', sans-serif;
-            font-size: clamp(1rem, 4vw, 1.45rem);
+            font-size: clamp(0.88rem, 3.5vw, 1.12rem);
             font-weight: 800;
             letter-spacing: 1.5px;
-            padding: 7px 18px;
-            margin-bottom: 22px;
+            padding: 6px 16px;
+            margin-bottom: 20px;
             color: transparent;
             background:
                 linear-gradient(135deg, #fff8c7 0%, var(--gold) 34%, #ff9f1c 62%, #e23b4f 100%);
@@ -325,11 +326,11 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            padding: 14px 32px;
+            padding: 13px 28px;
             background: var(--crimson);
             color: #fff;
             font-family: 'Syne', sans-serif;
-            font-size: 0.85rem;
+            font-size: 0.78rem;
             font-weight: 600;
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -918,7 +919,7 @@
 
         /* Desktop overrides */
         @media (min-width: 768px) {
-            .hero-logo { width: clamp(180px, 18vw, 240px); }
+            .hero-logo { width: clamp(145px, 14vw, 190px); }
             .carousel { margin: 0; padding: 0; }
             .carousel-track {
                 display: grid;
