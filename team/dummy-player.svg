@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" role="img" aria-label="Player photo placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dc143c"/>
+      <stop offset="0.45" stop-color="#4c060f"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="26%" r="48%">
+      <stop offset="0" stop-color="#ffd700" stop-opacity="0.5"/>
+      <stop offset="0.55" stop-color="#ffd700" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffd700" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#191919"/>
+      <stop offset="0.55" stop-color="#8b0000"/>
+      <stop offset="1" stop-color="#dc143c"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="420" fill="url(#bg)"/>
+  <rect width="320" height="420" fill="url(#halo)"/>
+  <path d="M28 60h264M52 108h216M38 358h244" stroke="#ffd700" stroke-opacity="0.12" stroke-width="2"/>
+  <circle cx="160" cy="132" r="58" fill="#f0bf86"/>
+  <path d="M100 128c6-52 34-76 72-70 36 6 54 34 50 74-18-18-48-23-74-20-20 3-36 9-48 16z" fill="#18110d"/>
+  <path d="M84 352c8-80 52-126 76-126s68 46 76 126v68H84z" fill="url(#shirt)"/>
+  <path d="M116 244l44 52 44-52 30 56c-22 22-49 34-74 34s-52-12-74-34z" fill="#ffd700" fill-opacity="0.16"/>
+  <path d="M118 264l42 48 42-48" fill="none" stroke="#ffd700" stroke-opacity="0.7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="160" y="382" fill="#ffd700" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" text-anchor="middle" letter-spacing="4">KINGS XI</text>
+</svg>
